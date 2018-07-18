@@ -12,7 +12,7 @@
  width: 30%;
  border-radius: 10%;
  text-align: center;
- font-size: 20px;
+ font-size: 240px;
 
 
 }
@@ -40,13 +40,14 @@ border-radius: 50%;
     border: 3px solid red;
     border-radius: 10%;
   }
+
   .child1{
 
     border:3px solid blue;
    padding: 3%;
    margin: 2%;
    width: 90%;
-   background-color: skyblue;
+   background-color: yellow;
    border-radius: 10%;
    text-align: center;
    font-size: 20px;
@@ -61,16 +62,52 @@ border-radius: 50%;
 
 
    .child2{
-     border:3px solid yellow;
+     border:3px solid grey;
      padding: 3%;
      margin: 2%;
      width: 90%;
      background-color: pink;
      border-radius: 10%;
    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+body{
+  background-color: red;
+}
+
+  .parent{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    border-radius: 10%;
+  }
+
+  .child1{
+
+    border:3px solid blue;
+   padding: 3%;
+   margin: 2%;
+   width: 90%;
+   background-color: violet;
+   border-radius: 10%;
+   text-align: center;
+   font-size: 20px;
 
 
+  }
+  img{
+  width: 50%;
+  border-radius: 50%;
+
+  }
 
 
-
+   .child2{
+     border:3px solid grey;
+     padding: 3%;
+     margin: 2%;
+     width: 90%;
+     background-color: green;
+     border-radius: 10%;
+   }
 }
