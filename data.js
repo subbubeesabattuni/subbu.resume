@@ -57,7 +57,7 @@ function details(det){
   child.appendChild(phoneno);
 
   var email = document.createElement("a")
-  email.href = "mailto:najindraprasad@gmail.com";
+  email.href = "mailto:subbubeesabattuni123@gmail.com";
   email.textContent = det.email;
   child.appendChild(email);
 
