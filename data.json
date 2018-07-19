@@ -1,0 +1,48 @@
+{
+  "basics":{
+  "image": "images.png",
+  "name": "siva subrahmanyam ",
+  "phoneno": "+919998995753",
+  "email": "subbubeesabattuni123@gmail.com",
+  "address": "SRKR Engineering College, Bhimavaram"
+},
+"CareerObjective":
+{
+  "info" : "A short blurb telling the hiring manager what skills, knowledge, and abilities you have that will help the company achieve its goals."
+},
+"education":[
+{
+"degree":"Btech",
+"group":"cse",
+"institute":"srkr",
+"data":["2016-2020","80%"]
+},
+{
+  "degree":"intermediate",
+  "group":"mpc",
+  "institute":"srichaitanya",
+  "data":["2014-2016","96%"]
+},
+{
+"degree":"ssc",
+"institute":"scholars",
+"data":["2013-2014","97%"]
+}
+],
+"skills":[
+  {
+"title":"languages",
+"data":["c","c++","java","python"]
+
+},
+{
+"title":"database",
+"data":["sql","mysql","oracle"]
+
+},
+{
+"title":"operating systems",
+"data":["windows","linux","dos"]
+}
+]
+}
